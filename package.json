@@ -1,5 +1,5 @@
 {
-  "name": "stdio-mock",
+  "name": "@jrolfs/stdio-mock",
   "version": "1.1.0",
   "description": "Mock Command Line Applications",
   "main": "lib/index.js",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TylorS/stdio-mock.git"
+    "url": "git+https://github.com/jrolfs/stdio-mock.git"
   },
   "keywords": [
     "typescript"
