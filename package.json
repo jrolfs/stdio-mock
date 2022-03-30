@@ -12,7 +12,7 @@
     "changelog": "conventional-changelog --infile CHANGELOG.md --same-file --release-count 0 --preset angular",
     "build": "tsc",
     "preversion": "npm run build",
-    "postversion": "git push origin master && git push origin --tags && npm publish && npm run changelog",
+    "postversion": "git push origin main && git push origin --tags && npm publish && npm run changelog",
     "release:minor": "npm version minor -m 'chore(package): v%s'",
     "release:major": "npm version major -m 'chore(package): v%s'"
   },
